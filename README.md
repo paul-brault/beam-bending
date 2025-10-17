@@ -1,4 +1,6 @@
 # Beam-Bending
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Excel](https://img.shields.io/badge/Excel-365%2B-green)
 
 Open Excel-based beam calculator — unlimited supports, multi-material spans, instant shear/moment/deflection charts.  
 Contact: beam.bending@gmail.com — Paul Brault
@@ -46,6 +48,25 @@ Instant shear, bending moment, and deflection diagrams are generated automatical
 4. View automatic chart updates for shear, moment, and deflection  
 
 ---
+
+## Example with RDM6 / RDM7
+
+The main workbook (`beam-bending.xlsm`) already includes a preloaded example reproducing the same case analyzed in **RDM6/RDM7**.
+
+This benchmark illustrates:
+- A continuous beam with **6 supports** and **7 spans**  
+- **Three different materials** (varying E and I across spans)  
+- A combination of **point** and **uniformly distributed loads**  
+- Instant computation of reactions, bending moments, and deflections  
+- Perfect consistency with the results from RDM6/RDM7  
+
+This comparison validates the accuracy and speed of the Excel/VBA solver.
+
+### Visualization
+
+![RDM6/RDM7 comparison](docs/example_rdm6-rdm7.png)
+
+Reference model: `example_rdm6-rdm7.fle`
 
 ## Disclaimer
 
