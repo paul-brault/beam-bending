@@ -13,6 +13,20 @@ Supports unlimited spans and materials, with live charts for shear (V), moment (
 
 ---
 
+## Screenshots
+
+### Input sheet
+Beam geometry, materials, and loads are entered directly in Excel cells.
+
+![Input sheet](docs/input_UI.png)
+
+### Output sheet
+Instant shear, bending moment, and deflection diagrams are generated automatically.
+
+![Output sheet](docs/output_UI.png)
+
+---
+
 ## Features
 
 - Unlimited supports and spans  
@@ -20,13 +34,13 @@ Supports unlimited spans and materials, with live charts for shear (V), moment (
 - Point and distributed loads  
 - Instant V/M/deflection charts  
 - 100% visible Excel logic (no hidden macros or hidden sheets)  
-- Compatible with Excel 365 (or older versions with minor adjustments on formula, VBA is already compatible)
+- Compatible with Excel 365 (or older versions with minor adjustments on formulas, VBA is already compatible)
 
 ---
 
 ## Installation & Usage
 
-1. Download Beam-Bending.xlsm  
+1. Download `Beam-Bending.xlsm`  
 2. Enable macros when prompted  
 3. Enter supports, spans, material properties (E, I), and loads  
 4. View automatic chart updates for shear, moment, and deflection  
