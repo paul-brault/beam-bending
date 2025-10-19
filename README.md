@@ -125,6 +125,57 @@ This comparison validates the accuracy and speed of the Excel/VBA solver.
 
 Reference model: `example_rdm6-rdm7.fle`
 
+---
+
+## Market Applications
+
+This Excel-based structural beam calculator is designed for projects where **speed, volume, and efficiency** are critical.  
+Unlike heavier software or Python scripts, the **VBA backend is optimized for Windows**, allowing hundreds of beam simulations in just fractions of a second — with **no duplicate data entry** since everything is contained directly in the spreadsheet environment.  
+It supports **flexion (bending) cases**, **multiple beams**, and **multiple load conditions** in a single run, bringing advanced structural analysis into a lightweight tool engineers already use daily.
+
+### Warehouse Racking and Storage Systems
+High-volume design of **pallet racks, warehouse shelving, flow racks, AS/RS systems, and mezzanines**.  
+Used for **batch calculations of rack beams**, checking **deflection, bending stress, and load capacity** according to **EN 15512, RMI, and AISC standards**.
+
+### Solar Panel Mounting Structures
+Rapid simulation of **solar racking systems, rooftop PV mounts, and ground-mount frames**.  
+Handles **wind load, snow load, and aluminum profile bending checks** under **Eurocode 1, Eurocode 9, and ASCE 7**.  
+Ideal for **iterating many design variants quickly** during solar structural engineering projects.
+
+### Mechanical Supports and Strut Channel Systems
+Fast verification of **HVAC supports, pipe racks, strut channel frames, and MEP modular structures**.  
+Automates **span checks, bending resistance, and deflection limits** for large sets of support elements using **Eurocode 3, AISI, and ASTM**.  
+Eliminates manual re-entry by keeping data fully inside Excel.
+
+### Scaffolding and Formwork
+Optimized for **batch checking of scaffold ledgers, braces, temporary beams, and formwork systems**.  
+Ensures **structural safety under multiple load cases** with **EN 12811, OSHA, and BS 5975 compliance**.  
+Well-suited for **scaffolding contractors running repetitive beam verifications**.
+
+### Mezzanines and Industrial Platforms
+Efficient sizing of **free-standing mezzanines, industrial work platforms, and warehouse decks**.  
+Performs **beam and column bending analysis, deflection checks, and load capacity verifications** according to **AISC 360 and IBC**.  
+Accelerates **large-batch design studies** for platform layouts.
+
+### Modular Aluminum Profiles and Machine Frames
+Structural checks for **aluminum extrusion frames, conveyors, machine bases, and automation structures**.  
+Excel-driven **deflection and bending analysis** using **Eurocode 9 and DIN 4113**.  
+Useful for **running many profile span variations in seconds** without needing external CAD/FEA.
+
+### Guardrails and Road Safety Barriers
+High-speed analysis of **roadside guardrails, crash barriers, and bridge parapets**.  
+Verifies **beam deflection and impact resistance** according to **EN 1317 and AASHTO LRFD**.  
+Enables **rapid testing of multiple barrier configurations** for safety compliance.
+
+### Key Benefits
+- **Batch simulations:** run dozens or hundreds of cases in a fraction of a second.  
+- **Optimized VBA engine:** faster than Python for spreadsheet-native workflows, with direct Windows integration.  
+- **No double entry:** all inputs, outputs, and results live in Excel.  
+- **Multiple beams and load cases:** flexible for real-world engineering projects.  
+- **Advanced bending analysis in a lightweight tool:** bridges the gap between manual spreadsheets and heavy FEA software.
+
+---
+
 ## Method of Resolution
 
 The beam solver is based on the **Euler–Bernoulli finite element method (FEM)** for linear static analysis.
