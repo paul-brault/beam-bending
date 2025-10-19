@@ -3,6 +3,8 @@
 ![Excel](https://img.shields.io/badge/Excel-365%2B-green)
 ![VBA](https://img.shields.io/badge/VBA-compatible-blue)
 
+[🇫🇷 Lire en français](README.fr.md)  
+
 Open Excel-based beam calculator - unlimited supports, multi-material spans, instant shear/moment/deflection charts.  
 Contact: beam.bending@gmail.com - Paul Brault
 
