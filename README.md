@@ -50,6 +50,62 @@ Instant shear, bending moment, and deflection diagrams are generated automatical
 
 ---
 
+## Input Data Format
+
+The solver expects one line of input containing **9 fields**, separated by `;`.  
+Inside each field, values are separated by `:`.  
+Units must be consistent (SI).
+
+### Field Definitions
+
+1. **Support positions (x) [m]**  
+   Beam span supports.  
+   - If no overhangs (no cantilevers), include `0` as the first value.  
+   - Example: `0:3:7`
+
+2. **Span end positions (x) [m]**  
+   End of each continuous beam section.  
+   - If only one material/geometry, provide just the total length.  
+   - Example: `10`
+
+3. **Young’s modulus per span [N/m²]**  
+   One value per span section (same count as span ends).  
+   - Example: `2.1E11`
+
+4. **Moment of inertia per span [m⁴]**  
+   One value per span section (same count as span ends).  
+   - Example: `8.5E-6`
+
+5. **Point load positions (x) [m]**  
+   Positions of nodal loads.  
+   - Example: `4:8`
+
+6. **Point load magnitudes [N]**  
+   Values corresponding to the positions above (same count).  
+   - Example: `-5000:-3000`
+
+7. **Distributed load start positions (x) [m]**  
+   One value for each distributed load.  
+   - Example: `2`
+
+8. **Distributed load end positions (x) [m]**  
+   Same count as distributed load starts.  
+   - Example: `5`
+
+9. **Distributed load intensities [N/m]**  
+   Constant intensity, same count as distributed load starts.  
+   - Example: `-2000`
+
+### Rules
+
+- Use `:` inside fields, `;` between fields.  
+- Beam end positions must be strictly increasing.  
+- Number of values must match across related fields (e.g., point load positions ↔ point load magnitudes).  
+- At least **2 supports** are required.  
+- At least **one nonzero load** is required.  
+
+---
+
 ## Example with RDM6 / RDM7
 
 The main workbook (`beam-bending.xlsm`) already includes a preloaded example reproducing the same case analyzed in **RDM6/RDM7**.
