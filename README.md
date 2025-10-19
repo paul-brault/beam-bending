@@ -133,6 +133,8 @@ This Excel-based structural beam calculator is designed for projects where **spe
 Unlike heavier software or Python scripts, the **VBA backend is optimized for Windows**, allowing hundreds of beam simulations in just fractions of a second - with **no duplicate data entry** since everything is contained directly in the spreadsheet environment.  
 It supports **flexion (bending) cases**, **multiple beams**, and **multiple load conditions** in a single run, bringing advanced structural analysis into a lightweight tool engineers already use daily.
 
+![Input sheet](docs/market_application.png)
+
 ### Warehouse Racking and Storage Systems
 High-volume design of **pallet racks, warehouse shelving, flow racks, AS/RS systems, and mezzanines**.  
 Used for **batch calculations of rack beams**, checking **deflection, bending stress, and load capacity** according to **EN 15512, RMI, and AISC standards**.
