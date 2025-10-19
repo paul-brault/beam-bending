@@ -1,17 +1,17 @@
-# Beam-Bending
+# Beam-Bending - Fast Excel tool for beam bending, deflection, and load checks
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Excel](https://img.shields.io/badge/Excel-365%2B-green)
 ![VBA](https://img.shields.io/badge/VBA-compatible-blue)
 
-Open Excel-based beam calculator — unlimited supports, multi-material spans, instant shear/moment/deflection charts.  
-Contact: beam.bending@gmail.com — Paul Brault
+Open Excel-based beam calculator - unlimited supports, multi-material spans, instant shear/moment/deflection charts.  
+Contact: beam.bending@gmail.com - Paul Brault
 
 ---
 
 ## Overview
 
 Beam-Bending is a lightweight Excel/VBA tool for quick beam analysis.  
-It runs entirely inside Excel — no external dependencies, no UI layers, and no double data entry.  
+It runs entirely inside Excel - no external dependencies, no UI layers, and no double data entry.  
 Supports unlimited spans and materials, with live charts for shear (V), moment (M), and deflection.
 
 ---
@@ -130,7 +130,7 @@ Reference model: `example_rdm6-rdm7.fle`
 ## Market Applications
 
 This Excel-based structural beam calculator is designed for projects where **speed, volume, and efficiency** are critical.  
-Unlike heavier software or Python scripts, the **VBA backend is optimized for Windows**, allowing hundreds of beam simulations in just fractions of a second — with **no duplicate data entry** since everything is contained directly in the spreadsheet environment.  
+Unlike heavier software or Python scripts, the **VBA backend is optimized for Windows**, allowing hundreds of beam simulations in just fractions of a second - with **no duplicate data entry** since everything is contained directly in the spreadsheet environment.  
 It supports **flexion (bending) cases**, **multiple beams**, and **multiple load conditions** in a single run, bringing advanced structural analysis into a lightweight tool engineers already use daily.
 
 ### Warehouse Racking and Storage Systems
@@ -222,5 +222,5 @@ Always verify results against engineering standards and professional judgment.
 
 ## License
 
-MIT License — free for personal and commercial use.  
+MIT License - free for personal and commercial use.  
 Attribution appreciated.
