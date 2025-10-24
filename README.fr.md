@@ -1,4 +1,4 @@
-# Beam-Bending - Outil Excel rapide pour la flexion, la flèche et la vérification de charges
+# RDM6 sur EXCEL - Outil VBA rapide pour la flexion, la flèche et la vérification de charges
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Excel](https://img.shields.io/badge/Excel-365%2B-green)
 ![VBA](https://img.shields.io/badge/VBA-compatible-blue)
